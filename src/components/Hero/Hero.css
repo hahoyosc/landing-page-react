@@ -1,0 +1,28 @@
+.hero-container {
+  width: 100%;
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%),
+    url('../../assets/image-girls.jpg') no-repeat top -100px center;
+  background-size: 100% auto;
+  height: 60vh;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  top: -100px;
+}
+
+.hero-content {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: white;
+
+  & p {
+    margin: 0;
+    font-size: 400%;
+  }
+
+  & h2 {
+    margin: 0;
+  }
+}

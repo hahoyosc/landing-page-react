@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc7cbe0c-b883-48b8-ab5d-1ddc621b41aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/001145-goal.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/002649-highlight.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/005123-goal.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/football-man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/full-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/hector.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image-girls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/mesh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/santiago.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sebastian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CircleButton/CircleButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CircleButton/CircleButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactUs/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactUs/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hero/Hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Highlights/Highlights.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Highlights/Highlights.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HowDoWeWork/HowDoWeWork.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HowDoWeWork/HowDoWeWork.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OurServices/OurServices.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OurServices/OurServices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OurTeam/OurTeam.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OurTeam/OurTeam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2cYWARquiD2S69ibOLsY9ZxAW4m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/hecto/OneDrive/Documents/like_a_pro/landing-page-react/src/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hecto\OneDrive\Documents\like_a_pro\landing-page-react\src\assets" />
+      <recent name="C:\Users\hecto\OneDrive\Documents\like_a_pro\landing-page-react\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hecto\OneDrive\Documents\like_a_pro\landing-page-react\src\components\CircleButton" />
+      <recent name="C:\Users\hecto\OneDrive\Documents\like_a_pro\landing-page-react\src\components\Highlights" />
+      <recent name="C:\Users\hecto\OneDrive\Documents\like_a_pro\landing-page-react\src\components\Services" />
+      <recent name="C:\Users\hecto\OneDrive\Documents\like_a_pro\landing-page-react\src\components\Hero" />
+      <recent name="C:\Users\hecto\OneDrive\Documents\like_a_pro\landing-page-react\src\components\Header" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc7cbe0c-b883-48b8-ab5d-1ddc621b41aa" name="Changes" comment="" />
+      <created>1708288849525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708288849525</updated>
+      <workItem from="1708288852336" duration="15300000" />
+      <workItem from="1708369504338" duration="24604000" />
+      <workItem from="1708434645294" duration="16105000" />
+      <workItem from="1708480016950" duration="2795000" />
+      <workItem from="1708529030453" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

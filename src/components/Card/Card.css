@@ -1,0 +1,32 @@
+.card {
+  border-radius: 20px;
+  border: 5px solid #eeeeee;
+  overflow: hidden;
+  width: 25vw;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card-icon {
+  padding: 2rem;
+}
+
+.card-content {
+  padding: 30px;
+  background-color: #eeeeee;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 5px solid #eeeeee;
+  overflow: hidden;
+  height: 100%;
+
+  & h2 {
+    color: #333333;
+    font-size: 250%;
+  }
+
+  & p {
+    color: #333333;
+    font-size: 150%;
+  }
+}

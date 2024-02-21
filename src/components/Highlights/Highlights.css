@@ -1,0 +1,38 @@
+.highlights-container {
+  background: #0E3560;
+  height: 750px;
+}
+
+.highlights-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 3rem;
+
+  & h1 {
+    color: white;
+    font-size: 250%;
+  }
+  & img {
+    width: 200px;
+  }
+}
+
+.carousel {
+  margin-top: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-highlight {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
+}
+
+.carousel-buttons {
+  display: flex;
+  margin-top: 1rem;
+}

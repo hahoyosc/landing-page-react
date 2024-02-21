@@ -1,0 +1,38 @@
+.services-container {
+  .mesh {
+    position: absolute;
+    z-index: -1;
+    width: 100%
+  }
+}
+
+.services-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .football-man {
+    width: 100vh;
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+
+  & h1 {
+    color: #268BA9;
+    font-size: 250%;
+  }
+
+  & h2 {
+    color: #333333;
+    font-size: 200%;
+  }
+
+  & p {
+    color: #333333;
+    font-size: 150%;
+  }
+
+  .services-info {
+    margin-right: 3rem;
+  }
+}

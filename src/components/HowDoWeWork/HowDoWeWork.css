@@ -1,0 +1,18 @@
+.how-do-we-work-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+  flex-direction: column;
+  margin-bottom: 4rem;
+
+  & h1 {
+    color: #268BA9;
+    font-size: 250%;
+  }
+}
+
+.cards {
+  display: flex;
+}
