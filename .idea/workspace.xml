@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc7cbe0c-b883-48b8-ab5d-1ddc621b41aa" name="Changes" comment="" />
+    <list default="true" id="fc7cbe0c-b883-48b8-ab5d-1ddc621b41aa" name="Changes" comment="Added git configuration to workspace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,8 +73,17 @@
       <workItem from="1708434645294" duration="16105000" />
       <workItem from="1708480016950" duration="2795000" />
       <workItem from="1708529030453" duration="39000" />
-      <workItem from="1708529088684" duration="316000" />
+      <workItem from="1708529088684" duration="802000" />
     </task>
+    <task id="LOCAL-00001" summary="Added git configuration to workspace">
+      <option name="closed" value="true" />
+      <created>1708529439787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708529439787</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added git configuration to workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added git configuration to workspace" />
   </component>
 </project>
