@@ -22,8 +22,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
 # amplify
 node_modules
 .amplify
 amplifyconfiguration*
+
+# idea generated files
+/.idea/
