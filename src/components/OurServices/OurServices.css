@@ -36,3 +36,9 @@
     margin-right: 3rem;
   }
 }
+
+@media (max-width: 1080px) {
+  .services-container {
+    display: none;
+  }
+}

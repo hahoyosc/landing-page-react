@@ -16,3 +16,9 @@
 .cards {
   display: flex;
 }
+
+@media (max-width: 1080px) {
+  .how-do-we-work-container {
+    display: none;
+  }
+}

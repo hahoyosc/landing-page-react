@@ -1,8 +1,7 @@
 ---
 name: Build and deploy application to S3 and CloudFront
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch
 # Permissions needed to interact with GitHub OIDC token endpoint.
 permissions:
   id-token: write
@@ -35,6 +34,6 @@ jobs:
       - name: Copy files to the production website with AWS CLI
         run: |
           aws s3 sync --delete ${{ env.DIST }} s3://${{ env.S3_BUCKET }}
-      - name: Copy files to the production website with AWS CLI
+      - name: Create the invalidation for the distribution with AWS CLI
         run: |
           aws cloudfront create-invalidation --distribution-id ${{ env.CLOUDFRONT_DIST_ID }} --paths "/*"

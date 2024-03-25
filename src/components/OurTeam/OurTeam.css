@@ -54,3 +54,9 @@
     font-size: 150%;
   }
 }
+
+@media (max-width: 1080px) {
+  .our-team-container {
+    display: none;
+  }
+}

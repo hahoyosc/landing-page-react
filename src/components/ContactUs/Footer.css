@@ -57,3 +57,9 @@
     user-select: none;
   }
 }
+
+@media (max-width: 1080px) {
+  .contact-us-container {
+    display: none;
+  }
+}

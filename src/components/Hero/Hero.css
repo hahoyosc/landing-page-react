@@ -1,8 +1,7 @@
 .hero-container {
   width: 100%;
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%),
-    url('../../assets/image-girls.jpg') no-repeat top -100px center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%),
+  url('../../assets/image-girls.jpg') no-repeat top -100px center;
   background-size: 100% auto;
   height: 60vh;
   max-height: 100vh;
@@ -24,5 +23,11 @@
 
   & h2 {
     margin: 0;
+  }
+}
+
+@media (max-width: 1080px) {
+  .hero-container {
+    display: none;
   }
 }

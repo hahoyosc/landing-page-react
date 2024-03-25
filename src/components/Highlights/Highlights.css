@@ -36,3 +36,9 @@
   display: flex;
   margin-top: 1rem;
 }
+
+@media (max-width: 1080px) {
+  .highlights-container {
+    display: none;
+  }
+}
