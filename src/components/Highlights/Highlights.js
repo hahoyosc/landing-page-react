@@ -2,9 +2,7 @@ import './Highlights.css'
 import React, {useState} from 'react';
 import Tag from '../../assets/tag.svg'
 import CircleButton from '../CircleButton/CircleButton';
-import highlight1 from '../../assets/002649-highlight.mp4';
-import highlight2 from '../../assets/005123-goal.mp4';
-import highlight3 from '../../assets/001145-goal.mp4';
+import {Highlight1, Highlight2, Highlight3} from "../../assets/highlights";
 
 const Highlights = React.forwardRef((props, ref) => {
 
@@ -13,9 +11,9 @@ const Highlights = React.forwardRef((props, ref) => {
     setActiveIndex(index);
   }
   const highlights = [
-    highlight1,
-    highlight2,
-    highlight3
+    Highlight1,
+    Highlight2,
+    Highlight3
   ];
 
   return (
@@ -27,15 +25,13 @@ const Highlights = React.forwardRef((props, ref) => {
       <div className={"carousel"}>
         <video className="carousel-highlight" src={highlights[activeIndex]} controls="controls"/>
         <div className={"carousel-buttons"}>
-          <CircleButton onClick={() => {
-            handleClick(0)
-          }} isActive={activeIndex === 0}/>
-          <CircleButton onClick={() => {
-            handleClick(1)
-          }} isActive={activeIndex === 1}/>
-          <CircleButton onClick={() => {
-            handleClick(2)
-          }} isActive={activeIndex === 2}/>
+          {highlights.map((highlight, index) => (
+            <CircleButton
+              key={index}
+              onClick={() => handleClick(index)}
+              isActive={activeIndex === index}
+            />
+          ))}
         </div>
       </div>
     </div>

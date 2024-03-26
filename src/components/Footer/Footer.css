@@ -1,13 +1,12 @@
 .contact-us-container {
   background: #0E3560;
-  height: 450px;
 }
 
 .contact-us-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 3rem;
+  padding: 3rem;
   text-align: center;
   flex-direction: column;
 
@@ -20,6 +19,7 @@
   & h2 {
     color: white;
     font-size: 200%;
+    margin: 2rem auto;
   }
 
   & p {
@@ -42,12 +42,12 @@
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding: 0 4rem;
   cursor: pointer;
 
   .recording-icon {
     margin-right: 1rem;
+    font-size: 70px;
   }
 
   & p {
@@ -59,7 +59,39 @@
 }
 
 @media (max-width: 1080px) {
-  .contact-us-container {
-    display: none;
+  .contact-us-content {
+    padding: 2rem 1rem 3rem;
+
+    & h1 {
+      font-size: 200%;
+    }
+
+    & h2 {
+      font-size: 150%;
+      margin: 1rem 4rem;
+    }
+
+    & p {
+      font-size: 100%;
+      margin: 0 4rem;
+    }
+
+    & button {
+      margin: 0;
+    }
+  }
+
+  .recording-button {
+    height: 75px;
+    padding: 0 2rem;
+
+    .recording-icon {
+      font-size: 50px;
+    }
+
+    & p {
+      margin: 0;
+      font-size: 150%;
+    }
   }
 }

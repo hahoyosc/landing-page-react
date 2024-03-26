@@ -3,7 +3,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 1rem;
+  padding-top: 1rem;
   flex-direction: column;
 
   & h1 {
@@ -57,6 +57,45 @@
 
 @media (max-width: 1080px) {
   .our-team-container {
-    display: none;
+    display: flex;
+    padding: 0;
+
+    & h1 {
+      font-size: 200%;
+    }
+  }
+
+  .our-team-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0;
+
+    .avatar {
+      width: 250px;
+      height: 250px;
+      position: relative;
+    }
+
+    & img {
+      display: flex;
+      width: 250px;
+      height: 250px;
+    }
+
+    .our-team-info {
+      margin: 0;
+      padding: 0 5rem;
+      text-align: center;
+    }
+
+    & h2 {
+      font-size: 150%;
+    }
+
+    & p {
+      color: #333333;
+      font-size: 100%;
+    }
   }
 }

@@ -16,7 +16,7 @@ const Footer = () => {
             "_blank",
             "noreferrer"
           )}}>
-          <IoLogoWhatsapp className={"recording-icon"} color={"#268BA9"} size={70}/>
+          <IoLogoWhatsapp className={"recording-icon"} color={"#268BA9"} />
           <p className={"lato-bold"}>Graben mi partido</p>
         </div>
       </div>

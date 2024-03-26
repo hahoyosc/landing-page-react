@@ -6,7 +6,7 @@ import OurServices from './components/OurServices/OurServices';
 import Highlights from './components/Highlights/Highlights';
 import HowDoWeWork from "./components/HowDoWeWork/HowDoWeWork";
 import OurTeam from "./components/OurTeam/OurTeam";
-import Footer from "./components/ContactUs/Footer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 

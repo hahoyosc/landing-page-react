@@ -1,8 +1,7 @@
 import './Card.css'
 import React from 'react';
-import { IoLogoWhatsapp } from "react-icons/io5";
-import { IoIosFootball } from "react-icons/io";
-import { IoCloudDownloadOutline } from "react-icons/io5";
+import {IoLogoWhatsapp, IoCloudDownloadOutline} from "react-icons/io5";
+import {IoIosFootball} from "react-icons/io";
 
 const Card = ({icon, title, description}) => {
 

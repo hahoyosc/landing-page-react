@@ -1,18 +1,17 @@
 .hero-container {
   width: 100%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%),
-  url('../../assets/image-girls.jpg') no-repeat top -100px center;
-  background-size: 100% auto;
+              url('../../assets/image-girls.jpg') no-repeat top -100px center;
+  background-size: cover;
   height: 60vh;
   max-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  top: -100px;
+  padding: 0 0 2rem 0;
 }
 
 .hero-content {
-  margin-bottom: 2rem;
   text-align: center;
   color: white;
 
@@ -28,6 +27,22 @@
 
 @media (max-width: 1080px) {
   .hero-container {
-    display: none;
+    display: flex;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%),
+                url('../../assets/image-girls.jpg') no-repeat center center;
+    background-size: cover;
+    height: 35vh;
+    padding: 0 0 1rem 0;
+  }
+
+  .hero-content {
+    & p {
+      font-size: 200%;
+      margin: 0.5rem;
+    }
+
+    & h2 {
+      font-size: 90%;
+    }
   }
 }

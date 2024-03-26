@@ -12,7 +12,7 @@
 }
 
 .card-content {
-  padding: 30px;
+  padding: 2rem;
   background-color: #eeeeee;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -28,5 +28,27 @@
   & p {
     color: #333333;
     font-size: 150%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .card {
+    width: 70vw;
+  }
+
+  .card-icon {
+    padding: 1rem;
+  }
+
+  .card-content {
+    padding: 1rem;
+
+    & h2 {
+      font-size: 150%;
+    }
+
+    & p {
+      font-size: 100%;
+    }
   }
 }
