@@ -2,7 +2,7 @@ import './Highlights.css'
 import React, {useState} from 'react';
 import Tag from '../../assets/tag.svg'
 import CircleButton from '../CircleButton/CircleButton';
-import {Highlight1, Highlight2, Highlight3} from "../../assets/highlights";
+import {Highlight1, Highlight2, Highlight3, Highlight4} from "../../assets/highlights";
 
 const Highlights = React.forwardRef((props, ref) => {
 
@@ -13,7 +13,8 @@ const Highlights = React.forwardRef((props, ref) => {
   const highlights = [
     Highlight1,
     Highlight2,
-    Highlight3
+    Highlight3,
+    Highlight4
   ];
 
   return (
