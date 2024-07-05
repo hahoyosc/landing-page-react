@@ -1,7 +1,24 @@
 ---
 name: Build and deploy application to S3 and CloudFront
+# Workflow dispatch to trigger the workflow with GitHub Actions.
 on:
-  workflow_dispatch
+  workflow_dispatch:
+    inputs:
+      s3-bucket:
+        description: 'S3 bucket name'
+        required: true
+      dist:
+        description: 'Directory with the build files'
+        required: true
+      region:
+        description: 'AWS region'
+        required: true
+      cloudfront-dist-id:
+        description: 'CloudFront distribution ID'
+        required: true
+      github-oidc-role:
+        description: 'IAM role ARN to assume with GitHub OIDC token'
+        required: true
 # Permissions needed to interact with GitHub OIDC token endpoint.
 permissions:
   id-token: write
@@ -11,11 +28,11 @@ jobs:
     name: Build and deploy
     runs-on: ubuntu-latest
     env:
-      S3_BUCKET: www.likeapro.live
-      DIST: build
-      REGION: us-east-1
-      CLOUDFRONT_DIST_ID: E3RNDRIVVBSKU
-      GITHUB_OIDC_ROLE: arn:aws:iam::498092456467:role/github-to-aws-oidc
+      S3_BUCKET: ${{ github.event.inputs.s3-bucket }}
+      DIST: ${{ github.event.inputs.dist }}
+      REGION: ${{ github.event.inputs.region }}
+      CLOUDFRONT_DIST_ID: ${{ github.event.inputs.cloudfront-dist-id }}
+      GITHUB_OIDC_ROLE: ${{ github.event.inputs.github-oidc-role }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
