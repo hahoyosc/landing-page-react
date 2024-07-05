@@ -47,8 +47,6 @@ const HowDoWeWork = React.forwardRef((props, ref) => {
           spaceBetween={5}
           slidesPerView={1.3}
           centeredSlides={true}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           {cardsInfo.map((card) => (
             <SwiperSlide key={card.id}>
