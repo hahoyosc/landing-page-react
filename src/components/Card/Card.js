@@ -1,4 +1,4 @@
-import './Card.css'
+import './Card.css';
 import React from 'react';
 import {IoLogoWhatsapp, IoCloudDownloadOutline} from "react-icons/io5";
 import {IoIosFootball} from "react-icons/io";

@@ -1,8 +1,10 @@
-import './Footer.css'
+import './Footer.css';
 import React from 'react';
 import {IoLogoWhatsapp} from "react-icons/io5";
 
 const Footer = () => {
+
+  const whatsAppNumber = process.env.REACT_APP_WHATSAPP_NUMBER;
 
   return (
     <div className={"contact-us-container"}>
@@ -12,7 +14,8 @@ const Footer = () => {
         <p className={"lato-regular"}>*Las grabaciones deben de agendarse como mínimo con un día de anticipación.</p>
         <div className={"recording-button"} onClick={() => {
           window.open(
-            "https://api.whatsapp.com/send/?phone=573195520962&text=%C2%A1Hola%21+Estoy+interesado%2Fa+en+agendar+una+grabaci%C3%B3n+para+un+evento+deportivo&type=phone_number&app_absent=0",
+            "https://api.whatsapp.com/send/?phone=" + whatsAppNumber + "&text=%C2%A1Hola%21+Estoy+interesado%2Fa+en" +
+            "+agendar+una+grabaci%C3%B3n+para+un+evento+deportivo.&type=phone_number&app_absent=0",
             "_blank",
             "noreferrer"
           )}}>
